@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+  pointer-events: visible;
+  position: inherit;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid brown;
+  border-radius: 80px;
+  padding: 20px;
+  color: black;
+  background-color: lightbrown;
+}
+a:hover {
+  background-color: brown;
+  color: #fff;
+}
+.cocktail-categories {
+  width: 90%;
+  display: grid;
+}
